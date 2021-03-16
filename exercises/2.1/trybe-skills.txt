@@ -4,4 +4,9 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
+ trybe-skills-updates
 - Internet
+=======
+- HTML
+- CSS
+ master
