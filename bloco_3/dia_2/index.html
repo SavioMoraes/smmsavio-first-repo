@@ -4,26 +4,48 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+        body {
+            font-size: 16px;
+        }
         h1 {
            font-size: 65px;
            color: orange;
+           font-family: sans-serif;
+           text-decoration: underline;
+        }
+        p {
+            font-weight: 600;
+            font-size: 3em;
+            text-align: center;
+            line-height: 1;
         }
         ul {
             background-color: rgb(135, 206, 235, 0.5);
         }
+        #modify-font-style{
+            font-style: italic;
+        }
         .modify-color{
             background-color: rgba(10, 59, 78, 0.5);
-        }   
-        
+        }
+        .yellow {
+            color: yellow;
+        }      
+        .red {
+            color: red;
+        }
+        .brown {
+            color: brown;
+        }
     </style>
 </head>
 <body>
 <h1>Exercícios 3.2</h1>
 <p >Qual é a sua cor favorita?</p>
-<ul class="modify-color">
-    <li>Amarelo</li>
-    <li>Vermelho</li>
-    <li>Marrom</li>
+<ul class="modify-color" id="modify-font-style">
+    <li class="yellow">Amarelo</li>
+    <li class="red">Vermelho</li>
+    <li class="brown">Marrom</li>
 </ul>
 </body>
 </html>
