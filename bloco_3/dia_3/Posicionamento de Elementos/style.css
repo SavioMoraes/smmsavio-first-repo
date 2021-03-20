@@ -4,6 +4,8 @@
   top: 100px;
   left: 200px;
   padding:2px;
+  z-index: 2;
+  overflow: auto;
 }
 .goomba {
   width: 10%;
@@ -11,6 +13,8 @@
   top: 495px;
   left: 283px;
   padding: 2px;
+  z-index: 1;
+  overflow: auto;
 }
 .baloon {
   width: 20%;
@@ -18,6 +22,8 @@
   top: 20px;
   left: 530px;
   padding: 1px;
+  z-index: ;
+  overflow: auto;
 }
 .bowser {
   width: 25%;
@@ -25,10 +31,14 @@
   top: 100px;
   left: 800px;
   padding: 2px;
+  z-index: 4;
+  overflow: auto;
 }
 .word {
   position: absolute;
   top: 65px;
-  left: 575px;
+  left: 580px;
   padding: 1px;
+  z-index: 4;
+  overflow: auto;
 }
