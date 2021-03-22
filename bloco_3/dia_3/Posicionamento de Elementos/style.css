@@ -39,6 +39,7 @@
 }
 .word {
   position: absolute;
+  display: inline-block;
   top: 65px;
   left: 580px;
   padding: 1px;  
